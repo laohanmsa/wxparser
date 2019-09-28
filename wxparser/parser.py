@@ -1,3 +1,6 @@
+import logging
+
+logger = logging.getLogger()
 
 
 class WXParser(object):
@@ -5,6 +8,7 @@ class WXParser(object):
         self._response = response
 
     def parse(self):
+        logger.info('parser test parse ')
         return {
             'title': self.parse_title(),
             'content': self.parse_content(),
