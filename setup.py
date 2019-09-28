@@ -8,7 +8,7 @@ setup(
   author='Mario',                   # Type in your name
   author_email ='laohan.msa@gmail.com',      # Type in your E-Mail
   url ='https://github.com/laohanmsa/wxparser.git',
-  download_url = 'https://github.com/laohanmsa/wxparser/archive/v0.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/laohanmsa/wxparser/archive/v0.3.tar.gz',    # I explain this later on
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
       ],
